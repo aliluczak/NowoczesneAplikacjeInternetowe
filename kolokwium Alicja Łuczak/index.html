@@ -1,0 +1,60 @@
+<!doctype html>
+<head>  
+    <meta charset="utf-8">  
+    <title>Kolokwium</title>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+</head>  
+  
+<body>  
+    
+    <div class="adding_car">
+        <h1>Dodawanie</h1>
+		<div class="adding_element">
+			<p>Model</p>
+			<input name="car_name" type="text">
+		</div>
+		<div class="adding_element">
+			<p>Marka</p>
+			<select>
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+				<option value="mercedes">Mercedes</option>
+				<option value="audi">Audi</option>
+			</select>
+		</div>
+		<div class="adding_element">
+			<button>Dodaj</button>
+		</div>
+    </div> 
+	<div class = "car_list_section">
+		<div class="carlist_header">
+			<p>Samochody:</p>
+			<div class ="filter">
+				<p>Filtrowanie</p>
+				<select>
+				<option value="-">-</option>
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+				<option value="mercedes">Mercedes</option>
+				<option value="audi">Audi</option>
+			</select>
+			</div>
+		</div>	
+		<div class="car_list">
+			<table>
+			</table>
+		</div>
+		<div class="counter">
+			<div class ="counter_element">
+				<p>Wypożyczone</p>
+				<p>3</p>
+			</div>
+			<div class = "counter_element">
+				<p>Dostępne</p>
+				<p>4</p>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>  
